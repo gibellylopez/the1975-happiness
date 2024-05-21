@@ -1,6 +1,6 @@
-# Single Song Promotion
+# The 1975 Happiness
 
-> Playlists more popular than albums 
+> Show me your love, Why don't you?
 
 ## What is this? 
 * A website to promote a single-song
@@ -13,4 +13,5 @@
 * What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* Your citations go here
+* [Genius](https://genius.com/The-1975-happiness-lyrics)
+* [Youtube](https://www.youtube.com/watch?v=rR1lgEMMJwo)
