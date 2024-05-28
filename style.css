@@ -37,6 +37,7 @@ main img {
     /* Fit image to container */
     max-width: 100%;
     display: block;
+    justify-content: center;
 }
 
 /* Primary Content */
