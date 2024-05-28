@@ -35,9 +35,9 @@ main {
 
 main img {
     /* Fit image to container */
-    max-width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /* Primary Content */
