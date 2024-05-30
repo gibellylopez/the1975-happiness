@@ -1,4 +1,5 @@
-/* CSS Variables */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
 :root {
     /* main UI color */
     --plyr-color-main: darkgray;
@@ -18,10 +19,33 @@
     --plyr-tooltip-background: white;
     --plyr-tooltip-color: black; 
     --plyr-control-icon-size: 16px;
+  
+  --primaryfont: "Reddit Mono";
+  --color1 : white;
+ 
 }
 
 body {
-    background: black;
+background-color:hsla(18,10%,48%,1);
+background-image:
+radial-gradient(at 1% 64%, hsla(24,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 9% 10%, hsla(0,0%,85%,1) 0px, transparent 50%),
+radial-gradient(at 93% 52%, hsla(240,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 92% 92%, hsla(0,1%,72%,1) 0px, transparent 50%);
+  
+font-family: var(--primaryfont);
+color: var(--color1);
+
+}
+
+h1 {
+  text-align: center;
+   margin-bottom: -15px;
+}
+
+h2{
+  text-align: center;
+  
 }
 
 /* Layout */
@@ -29,15 +53,16 @@ main {
     /* Fixed width center align */
     max-width: 60em;
     margin-inline: auto;
+    padding: 20px;
 
-    background: lightgray;
+    background: black;
 }
 
 main img {
     /* Fit image to container */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
+    display: block;
+    margin: auto
 }
 
 /* Primary Content */
@@ -56,6 +81,7 @@ article section {
 /* Footer */
 footer {
     text-align: center;
+    color: white;
 }
 
 /* Media Queries */
