@@ -2,27 +2,31 @@
 
 :root {
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: #ffffff;
     /* audio controls background */
     --plyr-audio-controls-background: black;
     /* audio controls color */
     --plyr-audio-control-color: white;
     /* font family for player */
-    --plyr-font-family: sans-serif;
+    --plyr-font-family: var(--primaryfont);
     /* font size of player  */
     --plyr-font-size-time: 16px;
-
     /* Other optional customiziations */
-    --plyr-audio-control-color-hover:  black;
+    --plyr-audio-control-color-hover: black;
     --plyr-audio-progress-buffered-background:  black;
-    --plyr-audio-range-track-background: white;
+    --plyr-audio-range-track-background: #86766E;
     --plyr-tooltip-background: white;
     --plyr-tooltip-color: black; 
     --plyr-control-icon-size: 16px;
   
   --primaryfont: "Reddit Mono";
   --color1 : white;
- 
+}
+
+
+.plyr__controls {
+  border: 1px solid white;
+  border-radius: 25px;
 }
 
 body {
@@ -35,7 +39,6 @@ radial-gradient(at 92% 92%, hsla(0,1%,72%,1) 0px, transparent 50%);
   
 font-family: var(--primaryfont);
 color: var(--color1);
-
 }
 
 h1 {
@@ -45,17 +48,26 @@ h1 {
 
 h2{
   text-align: center;
-  
+}
+
+h3 {
+  font-weight: 600;
+}
+
+p:hover {
+  color: #021688;
+  background: white;
 }
 
 /* Layout */
 main {
     /* Fixed width center align */
-    max-width: 60em;
+    max-width: 65em;
     margin-inline: auto;
-    padding: 20px;
+    padding: 50px;
 
     background: black;
+    border: solid #CFCDCC;
 }
 
 main img {
@@ -65,11 +77,15 @@ main img {
     margin: auto
 }
 
+img {
+ border: solid #CFCDCC;
+}
+
 /* Primary Content */
 article {
     /* flow content horizontally */
     display: flex;
-    gap: 1em;
+    gap: 1.5em;
     justify-content: center;
 }
 
@@ -81,7 +97,10 @@ article section {
 /* Footer */
 footer {
     text-align: center;
-    color: white;
+}
+
+a { 
+  color: lightblue;
 }
 
 /* Media Queries */
