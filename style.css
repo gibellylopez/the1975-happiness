@@ -2,7 +2,7 @@
 
 :root {
     /* main UI color */
-    --plyr-color-main: #ffffff;
+    --plyr-color-main: #86766E;
     /* audio controls background */
     --plyr-audio-controls-background: black;
     /* audio controls color */
@@ -14,7 +14,7 @@
     /* Other optional customiziations */
     --plyr-audio-control-color-hover: black;
     --plyr-audio-progress-buffered-background:  black;
-    --plyr-audio-range-track-background: #86766E;
+    --plyr-audio-range-track-background: #ffffff;
     --plyr-tooltip-background: white;
     --plyr-tooltip-color: black; 
     --plyr-control-icon-size: 16px;
